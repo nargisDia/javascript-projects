@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header" class="container">
+    <div id="again_btn">
+      <button id="again">Again</button>
+    </div>
+    <div class="top_info">
+      <p>
+        < Between 1 to 20>
+      </p>
+    </div>
+  </header>
+  <section id="hero_area" class="container">
+    <h2>Guess The Number👏</h2>
+    <div id="win"></div>
+    <div id="hide"></div>
+    <h5 id="guess">0</h5>
+  </section>
+  <section id="message_info" class="container">
+    <p class="message">Guess The Number Between 1 to 20 <img src="img/loading.png.gif" alt=""></p>
+  </section>
+  <section id="main_body" class="container">
+    <div class="input_area">
+      <input type="text" id="input" placeholder="Number only 1 to 20">
+      <input type="submit" id="submit" value="check">
+    </div>
+    <div class="status_area">
+      <!-- <p>🎉Its Correct Number</p>
+      <p>😎Its High Number</p>
+      <p>🙄Its Low Number</p> -->
+      <p>🐰Attempt : <span id="score">0</span></p>
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
