@@ -51,6 +51,10 @@ nav .circle {
   color: #333;
 }
 #progress {
+<<<<<<< HEAD
+=======
+  appearance: none;
+>>>>>>> a32a336 (initial message)
   -webkit-appearance: none;
   width: 100%;
   height: 6px;
